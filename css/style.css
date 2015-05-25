@@ -1,0 +1,75 @@
+* {
+    margin: 0 auto;
+}
+
+body{
+    width: 80%;
+    margin: 50px;
+    
+}
+
+form{
+    margin: 50px;
+}
+
+label {font-size: 30px;}
+input[type="text"]{
+    width: 80%;
+    padding: 10px;
+    font-size: 1.2em; 
+}
+input[type="submit"]{
+    height: 100%;
+    width: auto;
+    padding: 10px;
+    
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+}
+
+
+ h3{
+ margin: 10px;
+     }
+
+#source{
+    margin: 50px;
+/*    width:40%;*/
+    min-height: 300;
+    max-height: 500;
+    overflow: scroll;
+    border: 1px solid #222;
+    float: left;
+}
+ 
+
+ iframe{
+     width: 1200px;
+     height: 1200px;
+}
+
+/* Error colors! */
+
+ 
+.red{ color: red; }
+.green{ color: limegreen;}
+.highlight{
+    background:yellow; 
+    width:auto;
+}
+.highlight-green{
+    background:limegreen; 
+    width:auto;
+}
+
+.highlight-blue{
+    background:cadetblue; 
+    width:auto;
+}
+
+.highlight-pink{
+    background:hotpink; 
+    width:auto;
+}
